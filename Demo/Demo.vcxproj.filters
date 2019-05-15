@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\package10">
+      <UniqueIdentifier>{39bd6244-d675-4751-9072-a69879d17ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package12">
+      <UniqueIdentifier>{6a57b346-ce01-4080-9342-9a97b3f5e4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package11">
+      <UniqueIdentifier>{98d6f564-3796-4bcd-8625-88c16902206a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package12">
+      <UniqueIdentifier>{9b237484-34de-467c-9448-2c3260d39991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package09">
+      <UniqueIdentifier>{e80f2b63-36f0-4538-8984-3bf38a79b658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package13">
+      <UniqueIdentifier>{4280c61e-ccb3-4e3f-8546-abe8f3701f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package13">
+      <UniqueIdentifier>{0d658be2-0727-467f-a62c-3c120dca3cb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeiTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friendDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friendDemo02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="B.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="showFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stringstream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ostringstream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmplaceDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CapacityDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo.cpp">
+      <Filter>源文件\package10</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDemo.cpp">
+      <Filter>源文件\package11</Filter>
+    </ClCompile>
+    <ClCompile Include="Per.cpp">
+      <Filter>源文件\package12</Filter>
+    </ClCompile>
+    <ClCompile Include="Initializer.cpp">
+      <Filter>源文件\package09</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>源文件\package12</Filter>
+    </ClCompile>
+    <ClCompile Include="changeDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copyDemo.cpp">
+      <Filter>源文件\package13</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringDemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="A.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="B.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PersionInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrBlob.h">
+      <Filter>头文件\package12</Filter>
+    </ClInclude>
+    <ClInclude Include="StrBlobPtr.h">
+      <Filter>头文件\package12</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoClass.h">
+      <Filter>头文件\package13</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStr.h">
+      <Filter>头文件\package13</Filter>
+    </ClInclude>
+    <ClInclude Include="Copy.h">
+      <Filter>头文件\package13</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
