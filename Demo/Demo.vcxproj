@@ -159,26 +159,37 @@
     <ClCompile Include="ListDemo.cpp" />
     <ClCompile Include="MapDemo.cpp" />
     <ClCompile Include="Member.cpp" />
+    <ClCompile Include="OppDemo.cpp" />
     <ClCompile Include="Ostringstream.cpp" />
+    <ClCompile Include="OverLoad.cpp" />
     <ClCompile Include="Per.cpp" />
+    <ClCompile Include="QueryDemo.cpp" />
     <ClCompile Include="showFunction.cpp" />
     <ClCompile Include="StreamDemo.cpp" />
+    <ClCompile Include="stringCeshi.cpp" />
     <ClCompile Include="StringDemo.cpp" />
     <ClCompile Include="Stringstream.cpp" />
     <ClCompile Include="StringTest.cpp" />
+    <ClCompile Include="Temple.cpp" />
     <ClCompile Include="VectorDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="A.h" />
+    <ClInclude Include="arrayDemo.h" />
     <ClInclude Include="B.h" />
+    <ClInclude Include="Basket.h" />
     <ClInclude Include="Copy.h" />
     <ClInclude Include="DemoClass.h" />
     <ClInclude Include="MyStr.h" />
+    <ClInclude Include="ObjectOverLoad.h" />
+    <ClInclude Include="OOPdemo.h" />
     <ClInclude Include="PersionInfo.h" />
+    <ClInclude Include="Query.h" />
     <ClInclude Include="Sales_item.h" />
     <ClInclude Include="StrBlob.h" />
     <ClInclude Include="StrBlobPtr.h" />
     <ClInclude Include="StringDemo.h" />
+    <ClInclude Include="StrVec.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

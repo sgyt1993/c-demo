@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string>
+#include<vector>
 using namespace std;
 
 class MyStr {
@@ -28,6 +29,11 @@ public:
 		name = new char[strlen(str.name) + 1];
 		strcpy_s(name, strlen(str.name) + 1, str.name);
 	};
+	MyStr(MyStr&& str):name(str.name),id(str.id)//移动赋值函数
+	{
+		cout << "移动赋值函数" << endl;
+		delete &str;
+	};
 	MyStr& operator = (const MyStr& str)//赋值运算
 	{
 		cout << "operator =" << endl;
@@ -53,3 +59,5 @@ public:
 		return this->id;
 	}
 };
+
+

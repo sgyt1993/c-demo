@@ -8,7 +8,7 @@
 #include<set>
 using  namespace std;
 
-class A {
+/*class A {
 public:
 	A() :k(0) {};
 	A(int i) {
@@ -165,7 +165,7 @@ TextQuery1::TextQuery1(ifstream &is) : file(new vector<string>) {
 			lines->insert(n);//将此行号插入set中
 		}
 	}
-}
+}*/
 
 /*int main()
 {

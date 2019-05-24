@@ -30,6 +30,27 @@
     <Filter Include="头文件\package13">
       <UniqueIdentifier>{0d658be2-0727-467f-a62c-3c120dca3cb7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\package03">
+      <UniqueIdentifier>{88625a27-e929-4667-a7d5-ffe3575a98fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package14">
+      <UniqueIdentifier>{c82f0ca8-c2e9-4671-9d8c-1c24a283a87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package14">
+      <UniqueIdentifier>{b51c488c-2b76-430a-8836-358fd9931c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package15">
+      <UniqueIdentifier>{218a860a-5403-4bb6-ac1f-fda1842549a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package15">
+      <UniqueIdentifier>{ab893851-b974-456f-b3be-734c6fcbc1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package16">
+      <UniqueIdentifier>{22c01848-3636-4d2e-8f13-2d4947129bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package16">
+      <UniqueIdentifier>{b2d0dcc6-4956-4ac9-83a9-e2abfa1c102e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Demo01.cpp">
@@ -104,6 +125,21 @@
     <ClCompile Include="copyDemo.cpp">
       <Filter>源文件\package13</Filter>
     </ClCompile>
+    <ClCompile Include="stringCeshi.cpp">
+      <Filter>源文件\package03</Filter>
+    </ClCompile>
+    <ClCompile Include="OverLoad.cpp">
+      <Filter>源文件\package14</Filter>
+    </ClCompile>
+    <ClCompile Include="OppDemo.cpp">
+      <Filter>源文件\package15</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryDemo.cpp">
+      <Filter>源文件\package15</Filter>
+    </ClCompile>
+    <ClCompile Include="Temple.cpp">
+      <Filter>源文件\package16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -135,6 +171,24 @@
     </ClInclude>
     <ClInclude Include="Copy.h">
       <Filter>头文件\package13</Filter>
+    </ClInclude>
+    <ClInclude Include="StrVec.h">
+      <Filter>头文件\package13</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayDemo.h">
+      <Filter>头文件\package14</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectOverLoad.h">
+      <Filter>头文件\package14</Filter>
+    </ClInclude>
+    <ClInclude Include="OOPdemo.h">
+      <Filter>头文件\package15</Filter>
+    </ClInclude>
+    <ClInclude Include="Basket.h">
+      <Filter>头文件\package15</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>头文件\package15</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
