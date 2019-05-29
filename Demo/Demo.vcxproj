@@ -154,6 +154,7 @@
     <ClCompile Include="EmplaceDemo.cpp" />
     <ClCompile Include="friendDemo.cpp" />
     <ClCompile Include="friendDemo02.cpp" />
+    <ClCompile Include="HeightLever.cpp" />
     <ClCompile Include="Initializer.cpp" />
     <ClCompile Include="LeiTest.cpp" />
     <ClCompile Include="ListDemo.cpp" />
@@ -178,6 +179,7 @@
     <ClInclude Include="arrayDemo.h" />
     <ClInclude Include="B.h" />
     <ClInclude Include="Basket.h" />
+    <ClInclude Include="Blob.h" />
     <ClInclude Include="Copy.h" />
     <ClInclude Include="DemoClass.h" />
     <ClInclude Include="MyStr.h" />

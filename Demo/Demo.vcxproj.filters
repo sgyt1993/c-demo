@@ -51,6 +51,12 @@
     <Filter Include="源文件\package16">
       <UniqueIdentifier>{b2d0dcc6-4956-4ac9-83a9-e2abfa1c102e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\package17">
+      <UniqueIdentifier>{1d58dd51-b6a4-4085-b5fb-f0fb8dbf99c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package17">
+      <UniqueIdentifier>{33632ee7-bb72-4348-ab54-fb14874d8c51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Demo01.cpp">
@@ -140,6 +146,9 @@
     <ClCompile Include="Temple.cpp">
       <Filter>源文件\package16</Filter>
     </ClCompile>
+    <ClCompile Include="HeightLever.cpp">
+      <Filter>源文件\package17</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -189,6 +198,9 @@
     </ClInclude>
     <ClInclude Include="Query.h">
       <Filter>头文件\package15</Filter>
+    </ClInclude>
+    <ClInclude Include="Blob.h">
+      <Filter>头文件\package16</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
