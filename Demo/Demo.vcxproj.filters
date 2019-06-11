@@ -57,6 +57,18 @@
     <Filter Include="源文件\package17">
       <UniqueIdentifier>{33632ee7-bb72-4348-ab54-fb14874d8c51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\package18">
+      <UniqueIdentifier>{73738b5e-face-4b1e-a9e5-232966db48d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package18">
+      <UniqueIdentifier>{c6d40842-50e2-4bb1-a2a5-e382a75576ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package19">
+      <UniqueIdentifier>{0e00b0dd-88d3-4c2d-96af-a73a38550da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package19">
+      <UniqueIdentifier>{840e08cf-4bf6-4631-836a-864726253d16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Demo01.cpp">
@@ -149,6 +161,15 @@
     <ClCompile Include="HeightLever.cpp">
       <Filter>源文件\package17</Filter>
     </ClCompile>
+    <ClCompile Include="ThrowDemo.cpp">
+      <Filter>源文件\package18</Filter>
+    </ClCompile>
+    <ClCompile Include="NewDemo.cpp">
+      <Filter>源文件\package19</Filter>
+    </ClCompile>
+    <ClCompile Include="externDemo.cpp">
+      <Filter>源文件\package19</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
@@ -201,6 +222,9 @@
     </ClInclude>
     <ClInclude Include="Blob.h">
       <Filter>头文件\package16</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamicDemo.h">
+      <Filter>头文件\package19</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

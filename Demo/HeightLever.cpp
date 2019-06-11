@@ -195,7 +195,7 @@ vector<matches> findBook(const vector<vector<Sales_data>> &files, const string &
 	cout << regex_replace(file, r, fmt,regex_constants::format_no_copy) <<endl;
 }*/
 
-int main() 
+/*int main() 
 {
 	string str = "1994 is my birth year";
 	regex r("\\d{4}");
@@ -205,7 +205,7 @@ int main()
 	string replace2 = regex_replace(str, r, fmt,regex_constants::format_no_copy);//不显示不匹配的值
 	cout << replace2 << endl;//19
 	return 0;
-}
+}*/
 
 /*int main() 
 {
@@ -292,3 +292,205 @@ int main()
 		cout << flag << endl;
 	}
 }*/
+
+#include<fstream>
+#include<sstream>
+#include<string>
+//输出bool值时，默认是1,0，变成true,false
+/*int main() 
+{
+	ofstream f("e:/sgyt.txt",ios::out);
+	if (f.fail()) 
+	{
+		cout << "打开失败" << endl;
+	}
+	f << "default bool values:" << true << "   " << false ;//default bool values:1   0
+	f << "\nalphe bool values:" << boolalpha << true << "    " << false ;//alphe bool values:true    false
+	f.close();
+	return 0;
+}*/
+
+//输出定制
+/*int main() 
+{
+
+	ofstream f("e:/sgyt.txt", ios::out);
+	if (f.fail())
+	{
+		cout << "打开失败" << endl;
+	}
+	f << showbase;//打印整型时显示进制
+	f << "default:" << 20 << "   " << 1024 <<endl;
+	f << "octal:" << oct << 20 << "   " << 1024 << endl;
+	f<<"hex:"<<hex<< 20 << "   " << 1024 << endl;
+	f<<"decimal:"<<dec << 20 << "   " << 1024 << endl;
+	f.close();
+	return 0;
+}*/
+/*
+default:20   1024
+octal:24   2000
+hex : 14   400
+decimal : 20   1024*/
+
+
+//指定打印精度
+//通过调用io对象precision成员或使用setprecision操纵符来改变精度
+#include<iomanip>
+/*int main() 
+{
+	ofstream f("e:/sgyt.txt", ios::out);
+	if (f.fail())
+	{
+		cout << "打开失败" << endl;
+	}
+	//cout.precision返回当前精度值
+	f << "Precision:" << f.precision() << ",Value:" << sqrt(2.0) << endl;
+	//cout.precision(12)将打印精度设置为12位数字
+	f.precision(12);
+	f << "Precision" << f.precision() << ",Value:" << sqrt(2.0) << endl;
+	//使用setprecision操纵符
+	f<<setprecision(3);
+	f << "Precision" << f.precision() << ",Value:" << sqrt(2.0) << endl;
+	f.close();
+	return 0;
+}*/
+/*
+Precision:6,Value:1.41421
+Precision12,Value:1.41421356237
+Precision3,Value:1.41
+*/
+
+
+/*int  main() 
+{
+	ofstream f("e:/sgyt.txt", ios::out);
+	if (f.fail())
+	{
+		cout << "打开失败" << endl;
+	}
+	f << 10.0 << endl;
+	f << showpoint << 10.0 << noshowpoint << "    " << 10.0 << endl;
+	//10
+	//10.0000    10
+	return 0;
+}*/
+
+
+//小数的操作符
+/*int main() 
+{
+	ofstream f("e:/sgyt.txt", ios::out);
+	if (f.fail())
+	{
+		cout << "打开失败" << endl;
+	}
+	int i = -16;
+	double d = 3.14159;
+	//补白第一列，使用输出中最小12个位置
+	f << "i:" << setw(12) << i << "next col" << "\n"
+		<< "d:" << setw(12) << d << "next col" << "\n";
+	//补白第一列，左对齐所有列
+	f << left
+		<< "i:" << setw(12) << i << "next col" << "\n"
+		<< "d:" << setw(12) << d << "next col" << "\n"
+		<< right;//恢复正常对齐
+	//补白第一列，右对齐所有列
+	f << right
+		<< "i:" << setw(12) << i << "next col" << "\n"
+		<< "d:" << setw(12) << d << "next col" << "\n";
+	//补白第一列，但补在域的内部
+	f <<internal
+		<< "i:" << setw(12) << i << "next col" << "\n"
+		<< "d:" << setw(12) << d << "next col" << "\n";
+	//补白第一列，用#作为补白字符
+	f << setfill('#')
+		<< "i:" << setw(12) << i << "next col" << "\n"
+		<< "d:" << setw(12) << d << "next col" << "\n"
+		<< setfill(' ');
+	
+	i:         -16next col
+d:     3.14159next col
+i:-16         next col
+d:3.14159     next col
+i:         -16next col
+d:     3.14159next col
+i:-         16next col
+d:     3.14159next col
+i:-#########16next col
+d:#####3.14159next col
+
+	
+	return 0;
+}*/
+
+//未格式化输出/输入操作
+//sell,tell支持随机访问
+/*int main() 
+{
+	ifstream f("e:/sgyt.txt", ios::out);
+	if (f.fail())
+	{
+		cout << "打开失败" << endl;
+	}
+	//当前的位置
+	streampos pos = f.tellg();
+	if (ios::beg == pos) 
+	{
+		cout << "the file is beginning" << endl;
+	}
+	return 0;
+}*/
+
+/*int main() 
+{
+	ifstream f("e:/sgyt.txt", ios::out);
+	if (f.fail())
+	{
+		cout << "打开失败" << endl;
+	}
+	string line;
+	getline(f, line);
+	//拿到当前的pos点
+	streampos pos = f.tellg();
+	f.close();
+	//重新开一个读入流
+	ifstream g("e:/sgyt.txt", ios::out);
+	if (g.fail())
+	{
+		cout << "打开失败" << endl;
+	}
+	//将g读入流标记到刚才读取的位置
+	g.seekg(pos);
+	getline(g, line);//这里取到的就是本文件的第二行文件
+	cout << line << endl;
+	return 0;
+}*/
+
+//二进制读取文件，并输出
+/*int  main() 
+{
+	ifstream read("e:/Explosion_4k.jpg", ios::binary);
+	ofstream out("e:/tupian.jpg", ios::binary);
+	if (out.fail()) 
+	{
+		string command;
+		string path = "e:/tupian.jpg";
+		command = "mkdir -p " + path;
+		system(command.c_str());
+	};
+	int ch;//使用一个int,而不是char保存get()的返回值
+	while ((ch = read.get()) != EOF) 
+	{
+		out.put(ch);
+	}
+	read.close();
+	out.close();
+	return 0;
+}*/
+
+
+
+
+
+

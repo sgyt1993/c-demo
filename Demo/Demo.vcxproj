@@ -152,6 +152,7 @@
     <ClCompile Include="demo.cpp" />
     <ClCompile Include="Demo01.cpp" />
     <ClCompile Include="EmplaceDemo.cpp" />
+    <ClCompile Include="externDemo.cpp" />
     <ClCompile Include="friendDemo.cpp" />
     <ClCompile Include="friendDemo02.cpp" />
     <ClCompile Include="HeightLever.cpp" />
@@ -160,6 +161,7 @@
     <ClCompile Include="ListDemo.cpp" />
     <ClCompile Include="MapDemo.cpp" />
     <ClCompile Include="Member.cpp" />
+    <ClCompile Include="NewDemo.cpp" />
     <ClCompile Include="OppDemo.cpp" />
     <ClCompile Include="Ostringstream.cpp" />
     <ClCompile Include="OverLoad.cpp" />
@@ -172,6 +174,7 @@
     <ClCompile Include="Stringstream.cpp" />
     <ClCompile Include="StringTest.cpp" />
     <ClCompile Include="Temple.cpp" />
+    <ClCompile Include="ThrowDemo.cpp" />
     <ClCompile Include="VectorDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +185,7 @@
     <ClInclude Include="Blob.h" />
     <ClInclude Include="Copy.h" />
     <ClInclude Include="DemoClass.h" />
+    <ClInclude Include="dynamicDemo.h" />
     <ClInclude Include="MyStr.h" />
     <ClInclude Include="ObjectOverLoad.h" />
     <ClInclude Include="OOPdemo.h" />

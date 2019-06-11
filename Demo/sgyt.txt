@@ -1,0 +1,3 @@
+default bool values:1   0
+
+alphe bool values:true    false
